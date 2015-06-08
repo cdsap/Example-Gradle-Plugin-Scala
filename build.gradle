@@ -1,0 +1,15 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:1.1.0'
+        classpath "jp.leafytree.gradle:gradle-android-scala-plugin:1.4"
+    }
+}
+
+allprojects {
+    repositories {
+        mavenCentral()
+    }
+}
