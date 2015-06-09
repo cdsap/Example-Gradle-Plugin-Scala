@@ -45,7 +45,7 @@ dependencies {
     compile 'com.android.support:appcompat-v7:22.2.0'
     compile "com.android.support:multidex:1.0.1"
     compile "org.scala-lang:scala-library:2.11.6"
-    compile 'org.macroid:macroid_2.11:+'
+    compile 'org.macroid:macroid_2.11:2.0.0-M3'
     compile 'org.macroid:macroid-akka_2.11:+'
     compile 'com.typesafe.akka:akka-actor_2.11:2.3.6'
 

@@ -3,6 +3,7 @@ package com.testscalagradle
 import akka.actor.{Props, ActorLogging, ActorRef}
 import macroid.akka.FragmentActor
 
+
 object RacketActor {
   case object Ball
   case object Smash

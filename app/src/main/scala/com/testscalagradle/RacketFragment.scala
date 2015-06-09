@@ -7,16 +7,15 @@ import android.view.ViewGroup.LayoutParams._
 
 import macroid._
 import macroid.FullDsl._
-import macroid.contrib.TextTweaks
-import macroid.Ui
 import macroid.akka.AkkaFragment
+import macroid.contrib.TextTweaks
 
 import scala.concurrent.ExecutionContext.Implicits.global
 
 /** Styles for our widgets */
 object Styles {
   // how racket looks
-  def racket(implicit appCtx: ActivityContextWrapper) =
+    def racket(implicit appCtx: AppContext) =
     hide + disable +
       text("SMASH") +
       TextTweaks.large +
